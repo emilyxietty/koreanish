@@ -1,0 +1,34 @@
+{
+  "manifest_version": 2,
+
+  "name": "Koreanish",
+  "description": "Replace English with Korean to advance your duolingo vocabulary!",
+  "version": "1.0",
+  "options_page": "index.html",
+
+  "permissions": [
+    "storage",
+    "contextMenus"
+  ],
+  "icons": { "48": "lipj.png",
+          "128": "lipj.png" },
+  "browser_action": {
+          "default_icon": {
+	           "48": "lipj.png",
+			   "128": "lipj.png"
+          },
+          "default_title": "#content",
+          "default_popup": "index.html"
+        },
+
+  "background": {
+    "scripts": ["menu.js"]
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["change.js"]
+    }
+  ]
+}
