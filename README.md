@@ -44,7 +44,7 @@
 ## About The Project
 Every page will automatically convert English words into Korean words. See this search about bread!
 <br>
-[ezgif-2-073bee9dce](https://user-images.githubusercontent.com/40601891/164135731-dbe69198-4817-4e9e-bb0f-fa954e9f19be.gif)
+![bread-test](https://user-images.githubusercontent.com/40601891/164136041-cef02228-5cd6-4fea-9ae9-5fb561c8134d.gif)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
