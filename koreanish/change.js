@@ -26,7 +26,7 @@ chrome.storage.local.get({
     lvl3: false,
     lvl4: false,
     lvl5: false,
-    lvl5: false,
+    lvl6: false,
 }, function (items) {
       if(items.lvl1){
       		replaceWord("woman","여자");
