@@ -15,8 +15,9 @@
 
   <p align="center">
     Inspired by Duolingo's Korean vocabulary progression. Changes English words according to the selected Duolingo categories and replaces them with Korean words. This will help you get more used to reading Korean in everyday contexts, a few words at a time. 🤠 Happy learning!
-    <br />
-    <a href="https://github.com/emilyxietty/koreanish"><strong>Explore the docs »</strong></a>
+    <br>
+    V1.1: Newly adapted to manifest 3. New options page with imrpoved toggle buttons.
+    <a href="https://github.com/emilyxietty/koreanish/tree/main/koreanish"><strong>Explore the docs »</strong></a>
     <br />
   </p>
 </div>
@@ -53,6 +54,8 @@ Every page will automatically convert English words into Korean words. See this 
 
 * Javascript
 * HTML
+* CSS
+* Manifest 3 (JSON)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
