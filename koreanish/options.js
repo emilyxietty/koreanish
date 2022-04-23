@@ -6,12 +6,16 @@ function save_options() {
   var lvl2 = document.getElementById('lvl2').checked;
   var lvl3 = document.getElementById('lvl3').checked;
   var lvl4 = document.getElementById('lvl4').checked;
+  var lvl5 = document.getElementById('lvl5').checked;
+  var lvl6 = document.getElementById('lvl6').checked;
 
   chrome.storage.local.set({
     lvl1: lvl1,
     lvl2: lvl2,
     lvl3: lvl3,
     lvl4: lvl4,
+    lvl5: lvl5,
+    lvl6: lvl6,
   }, function() {
     // Update status to let user know options were saved.
     var status = document.getElementById('status');
@@ -32,11 +36,15 @@ function restore_options() {
     lvl2: false,
     lvl3: false,
     lvl4: false,
+    lvl5: false,
+    lvl6: false,
   }, function(items) {
     document.getElementById('lvl1').checked = items.lvl1;
     document.getElementById('lvl2').checked = items.lvl2;
     document.getElementById('lvl3').checked = items.lvl3;
     document.getElementById('lvl4').checked = items.lvl4;
+    document.getElementById('lvl5').checked = items.lvl5;
+    document.getElementById('lvl6').checked = items.lvl6;
   });
 }
 
