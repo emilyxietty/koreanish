@@ -12,6 +12,8 @@
 
 
 <h3 align="center">Korean-ish</h3>
+        <a href="https://chrome.google.com/webstore/detail/koreanish/ffoghgnecnmgehncijcnofgdciggmgdi"><strong>Now available on the Chrome Webstore </strong></a>
+
 
   <p align="center">
     Inspired by Duolingo's Korean vocabulary progression. Changes English words according to the selected Duolingo categories and replaces them with Korean words. This will help you get more used to reading Korean in everyday contexts, a few words at a time. 🤠 Happy learning!
