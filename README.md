@@ -12,7 +12,7 @@
 
 
 <h3 align="center">Korean-ish</h3>
-        <a href="https://chrome.google.com/webstore/detail/koreanish/ffoghgnecnmgehncijcnofgdciggmgdi"><strong>Now available on the Chrome Webstore </strong></a>
+        <a href="https://chrome.google.com/webstore/detail/koreanish/ffoghgnecnmgehncijcnofgdciggmgdi" target="_blank"><strong>Now available on the Chrome Webstore </strong></a>
 
 
   <p align="center">
